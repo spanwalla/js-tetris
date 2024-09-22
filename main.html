@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Игра тетрис">
+    <title>Tetris</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="js/main.js"></script>
+</head>
+<body>
+<header>
+    <h1>Tetris</h1>
+</header>
+<main class="game-container">
+    <div class="game-info">
+        <p>Игрок: <b id="username">Player</b></p>
+        <p>Уровень: <b id="level">1</b></p>
+        <p>Счёт: <b id="score">0</b></p>
+        <div class="next-piece-info">
+            <p class="next-piece-label">Следующая фигура</p>
+            <canvas height="120" width="120" id="nextPiece">У вас отключен JavaScript, либо вы используете устаревший браузер.</canvas>
+        </div>
+        <div class="keys-info">
+            <p>Управление:</p>
+            <ul>
+                <li>⇄ – переместить фигуру влево/вправо</li>
+                <li>↓ – опустить фигуру</li>
+                <li>↑ – повернуть фигуру</li>
+            </ul>
+        </div>
+        <div class="leaders-info">
+            <a href="leaderboard.html">Таблица лидеров</a>
+        </div>
+    </div>
+    <div class="field-container">
+        <canvas height="600" width="300" id="gameField">У вас отключен JavaScript, либо вы используете устаревший браузер.</canvas>
+    </div>
+</main>
+</body>
+</html>

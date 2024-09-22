@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+
+main {
+    height: 90vh;
+}

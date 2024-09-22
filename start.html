@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Начальная страница игры в тетрис.">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/start.css">
+    <script src="js/start.js"></script>
+</head>
+<body onload="readUsername(document.getElementById('username'))">
+<header>
+    <h1>Tetris</h1>
+</header>
+<main>
+    <div class="form-wrapper">
+        <form class="form-start" action="main.html" method="get" onsubmit="storeUsername(document.getElementById('username'))">
+            <label for="username" hidden>Имя игрока</label>
+            <input id="username" name="username" type="text" placeholder="Имя игрока" required autocomplete="on">
+            <button type="submit">Начать игру</button>
+        </form>
+    </div>
+</main>
+</body>
+</html>

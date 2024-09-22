@@ -1,0 +1,36 @@
+canvas {
+    border: 10px #505050 solid;
+}
+
+#nextPiece {
+    padding: 10px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.game-info {
+    max-width: 35vh;
+}
+
+.game-info p {
+    margin: 0;
+}
+
+.keys-info > ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.next-piece-info, .keys-info {
+    margin-top: 10px;
+}
+
+.leaders-info {
+    display: inline-block;
+    margin-bottom: 15px;
+}
