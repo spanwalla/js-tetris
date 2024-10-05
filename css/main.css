@@ -6,6 +6,10 @@ canvas {
     padding: 10px;
 }
 
+#username {
+    overflow-wrap: break-word;
+}
+
 .game-container {
     display: flex;
     justify-content: center;
